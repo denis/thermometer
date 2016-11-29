@@ -53,4 +53,5 @@ void setup() {
 
 void loop() {
   ArduinoOTA.handle();
+  // ESP.deepSleep(60 * 1000000);
 }
